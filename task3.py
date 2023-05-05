@@ -4,6 +4,6 @@ vegetarians = {'Alice', 'Eve', 'Frank'}
 # it turns out that omnivores can eat both and eat vegetables and herbs,
 # and vegetarians eat vegetables and herbs,
 # so I understand correctly that I just need to combine these two groups?
-vegetarian_guests = omnivores | vegetarians
+vegetarian_guests = omnivores.union(vegetarians)
 # I decided just to display those who are in both groups since omnivores also eat vegetables and herbs
 print('Vegetarian guests:', vegetarian_guests)
