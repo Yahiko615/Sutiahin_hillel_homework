@@ -2,9 +2,8 @@ import pickle
 
 with open('test/data/tuples.txt', 'r+b') as file:
     data_tuple = pickle.load(file)
-count = 0
-for item in data_tuple:
-    count += 1
+
+for index, item in enumerate(data_tuple):
     element1 = item[0]
     element2 = item[1]
     operation = item[2]
@@ -17,4 +16,4 @@ for item in data_tuple:
     elif operation == 3:
         operation = '*'
         result = element1 * element2
-    print(f'Result of the {count} operation: {element1}{operation}{element2}={result}')
+    print(f'Result of the {index+1} operation: {element1}{operation}{element2}={result}')
