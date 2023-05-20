@@ -9,7 +9,7 @@ def is_prime(number):
 
 if __name__ == "__main__":
     num = int(input("Enter number to check if its prime: "))
-    if is_prime(num) == True:
+    if is_prime(num):
         print(f'Number {num} is prime')
     else:
         print(f'Number {num} is not prime')
