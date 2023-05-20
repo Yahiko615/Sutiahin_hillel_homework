@@ -7,3 +7,4 @@ def display_box(width: int, height: int, character="x"):
 
 if __name__ == "__main__":
     display_box(4, 4)
+    display_box(5, 4, 'x')
