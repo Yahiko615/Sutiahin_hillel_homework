@@ -269,8 +269,8 @@ if __name__ == "__main__":
 
     check_info = comp.get_info()
     print(check_info)
-    check_info_with_bonus = comp_d.get_info()
-    print(check_info_with_bonus)
+    dict_created_comp_info = comp_d.get_info()
+    print(dict_created_comp_info)
 
     misha = Employee('Misha', 21, 'QA', 1000.50)
     misha_with_bonus = Employee.create_employee_with_bonus('Misha', 21, 'QA', 1000.50, 1000)
