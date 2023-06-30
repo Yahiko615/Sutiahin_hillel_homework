@@ -15,7 +15,7 @@ class VideoCard:
         self.video_ram = video_ram
         self.power_consumption = power_consumption
 
-    def __repr__(self):
+    def __str__(self):
         return f"{self.__class__.__name__}: {{\n  brand: {self.brand}\n  model: {self.model}\n  video_ram:" \
                f" {self.video_ram}GB\n  power_consumption: {self.power_consumption}W\n}}"
 
