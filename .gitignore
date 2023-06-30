@@ -1,1 +1,14 @@
 .idea
+.homework10/__pycache__/
+   .homework10/animals/__pycache__/
+   .homework10/animals/bird/__pycache__/
+   .homework10/animals/bird/eagle/__pycache__/
+   .homework10/animals/mammal/__pycache__/
+   .homework10/animals/mammal/dolphin/__pycache__/
+   .homework10/animals/mammal/flying_mammals/__pycache__/
+   .homework10/animals/mammal/flying_mammals/bat/__pycache__/
+   .homework11/__pycache__/
+   .homework11/interfaces/__pycache__/
+   .homework6/text.txt
+   .homework6/textdest.txt
+   .homework9/__pycache__/
