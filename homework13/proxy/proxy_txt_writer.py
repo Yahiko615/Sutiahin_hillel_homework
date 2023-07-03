@@ -12,7 +12,6 @@ class TxtProxyReaderAndWriter:
 
     def read_file(self):
         if self.__is_actual:
-            print('if')
             return self.__result
         else:
             self.__result = self.__txt_reader.read_file()
